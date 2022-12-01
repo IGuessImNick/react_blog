@@ -1,5 +1,5 @@
 import "./topbar.css";
-import Pfp from "../../src/img/pfp.JPG"
+import Pfp from "../../img/pfp.JPG"
 
 export default function TopBar() {
   return (

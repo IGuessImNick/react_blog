@@ -9,6 +9,8 @@
     /*
     font-family: 'Cinzel Decorative', cursive;
     */
+    z-index: 999;
+    background-color: white;
 }
 
 .topLeft, .topRight {

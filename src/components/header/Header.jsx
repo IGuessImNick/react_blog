@@ -1,5 +1,5 @@
 import "./header.css"
-import Noraltaa from "../../src/img/noraltaa.jpg"
+import Noraltaa from "../../img/noraltaa.jpg"
 
 export default function Header() {
   return (

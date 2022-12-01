@@ -1,5 +1,5 @@
 import "./sidebar.css"
-import AboutImg from "../../src/img/aboutMe.JPG"
+import AboutImg from "../../img/aboutMe.JPG"
 
 export default function Sidebar() {
   return (

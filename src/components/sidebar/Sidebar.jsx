@@ -9,7 +9,7 @@ export default function Sidebar() {
             {/* <img src={AboutImg} alt="" /> */}
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nihil sunt voluptate distinctio exercitationem consectetur,</p>
         </div>
-        <div className="sidebarItem">
+        {/* <div className="sidebarItem">
             <span className="sidebarTitle">categories</span>
             <ul className="sidebarList">
                 <li className="sidebarListItem">Life</li>
@@ -19,7 +19,7 @@ export default function Sidebar() {
                 <li className="sidebarListItem">Other Stuff</li>
                 <li className="sidebarListItem">More Stuff</li>
             </ul>
-        </div>
+        </div> */}
         <div className="sidebarItem">
             <span className="sidebarTitle">follow</span>
             <div className="sidebarSocial">

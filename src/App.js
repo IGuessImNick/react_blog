@@ -22,9 +22,9 @@ function App() {
         <Route path="/" element={<Home />} />
         {/* conditional to check if there is a user. If there is, direct to Homepage, if not, proceed to register */}
         <Route path="/register" element={user ? <Home/> : <Register />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/write" element={<Write />} />
-        <Route path="/settings" element={<Settings />} />
+        <Route path="/login" element={user ? <Home/> : <Login />} />
+        <Route path="/write" element={user ? <Write/> : <Register />} />
+        <Route path="/settings" element={user ? <Settings/> : <Register />} />
         <Route path="/post/:postId" element={<Single />} />
       </Routes>
     </Router>
